@@ -1,0 +1,30 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #f0f0f0; 
+  }
+  
+  .content {
+    text-align: center;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .content p {
+    font-size: 1.2rem;
+    color: #333; 
+    line-height: 1.6;
+  }
+  
+  .content:hover {
+    transform: translateY(-5px); 
+    transition: transform 0.3s ease;
+  }
