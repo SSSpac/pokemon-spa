@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../PokemonCard.module.css';
+import styles from '../modules/PokemonCard.module.css';
 
 const PokemonCard = ({ name, image, description }) => {
   return (

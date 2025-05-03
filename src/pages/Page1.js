@@ -1,8 +1,8 @@
 import React from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import PokemonCard from '../components/PokemonCard';
-import styles from '../Page1.module.css';
+import Header from '../components/js/Header';
+import Footer from '../components/footer/Footer';
+import PokemonCard from '../components/js/PokemonCard';
+import styles from '../components/modules/Pages.module.css';
 
 const Page1 = () => {
   const pikachuData = {
