@@ -9,6 +9,11 @@ const Home = () => {
       <Header title="Welcome to the Pokémon World!" />
       <main className={styles.content}>
         <p>Explore info about Pokomon</p>
+        <img 
+          src={require('../images/elements.jpeg')} 
+          alt="Pokemon Elements"
+          className={styles.image}
+        />
       </main>
       <Footer />
     </div>
